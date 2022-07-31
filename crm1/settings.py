@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ns47+zhx)o&pfh=!zie7ie(brnoy39$wcaaxk#0o0hgkz42(5r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://chiwizi.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['chiwizi.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
