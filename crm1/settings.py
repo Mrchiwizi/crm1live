@@ -179,14 +179,14 @@ STATICFILES_DIRS = [
 
 # SMTP CONFIGURATION
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 465
-# EMAIL_USE_TLS = False
-# EMAIL_USE_SSL = True
-# EMAIL_HOST_USER = 'godpoweramaefule@gmail.com'
-# EMAIL_HOST_PASSWORD = 'poiccsugqozongjb'
-# DEFAULT_FROM_EMAIL = 'godpoweramaefule@gmail.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'godpoweramaefule@gmail.com'
+EMAIL_HOST_PASSWORD = 'poiccsugqozongjb'
+DEFAULT_FROM_EMAIL = 'godpoweramaefule@gmail.com'
 
 
 
