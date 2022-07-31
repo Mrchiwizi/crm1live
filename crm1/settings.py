@@ -159,16 +159,16 @@ AWS_S3_FILE_OVERWRITE = False
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
+# STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
 
-MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/images/'
+# MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/images/'
 
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-# MEDIA_URL = '/media/'
+MEDIA_URL = '/media/'
 
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
@@ -176,19 +176,17 @@ STATICFILES_DIRS = [
 
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'chiwizicrm2')
-
 
 # SMTP CONFIGURATION
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 465
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'godpoweramaefule@gmail.com'
-EMAIL_HOST_PASSWORD = 'poiccsugqozongjb'
-DEFAULT_FROM_EMAIL = 'godpoweramaefule@gmail.com'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 465
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = True
+# EMAIL_HOST_USER = 'godpoweramaefule@gmail.com'
+# EMAIL_HOST_PASSWORD = 'poiccsugqozongjb'
+# DEFAULT_FROM_EMAIL = 'godpoweramaefule@gmail.com'
 
 
 
